@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 using System;
 
-namespace UC3_Append
+namespace UC4_Final_Sequence
 {
     class Program
     {
@@ -10,14 +11,12 @@ namespace UC3_Append
             //UseCase 1
             Operation obj = new Operation();
             //Insertion Operation
-            obj.Append(56);
-            obj.Append(30);
-            obj.Append(70);
+            obj.InsertLast(56);
+            obj.InsertBetween(2, 30);
+            obj.InsertLast(70);
             //Display Operation
             Console.WriteLine("*****Appending*****");
             obj.Display();
         }
     }
 }
-
-
