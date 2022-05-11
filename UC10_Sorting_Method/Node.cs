@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC9_Search_Delete
+namespace UC10_Sorting_Method
 {
     internal class Node
     {
@@ -21,3 +21,5 @@ namespace UC9_Search_Delete
         }
     }
 }
+    
+

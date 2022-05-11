@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC9_Search_Delete
+namespace UC10_Sorting_Method
 {
     internal class Operation
     {
@@ -162,26 +162,6 @@ namespace UC9_Search_Delete
             return (newNode.data);
 
         }
-        //search and delete
-        public int DeleteInBetween(int data)
-        {
-            Node temp = Search(data);
-            Console.WriteLine("Data {0} has been deleted from linked list", temp.data);
-            temp.next = temp.next.next;
-            int sizeofList = Size();
-            return sizeofList;
-        }
-        public int Size()
-        {
-            int count = 0;
-            Node temp = this.head;
-            while (temp != null)
-            {
-                count++;
-                temp = temp.next;
-            }
-            return count;
-        }
         //sorting
         public void Sort()
         {
@@ -224,3 +204,4 @@ namespace UC9_Search_Delete
 
     }
 }
+
