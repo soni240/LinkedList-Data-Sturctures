@@ -1,8 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
 using System;
 
-namespace UC6_Delete_Last_Element
+namespace UC7_Search_Linklist_FindNode
 {
     class Program
     {
@@ -53,6 +52,12 @@ namespace UC6_Delete_Last_Element
                     obj.DeleteLast();
                     obj.Display();
                     break;
+                case 6:
+                    obj.InsertLast(56);
+                    obj.InsertLast(30);
+                    obj.InsertLast(70);
+                    obj.Search(56);
+                    break;
 
 
             }
@@ -63,3 +68,4 @@ namespace UC6_Delete_Last_Element
 
 
 }
+

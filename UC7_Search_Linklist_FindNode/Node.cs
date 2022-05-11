@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC6_Delete_Last_Element
+namespace UC7_Search_Linklist_FindNode
 {
     internal class Node
     {
