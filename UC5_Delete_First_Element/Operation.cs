@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC4_Final_Sequence
+namespace UC5_Delete_First_Element
 {
     internal class Operation
     {
@@ -102,6 +102,21 @@ namespace UC4_Final_Sequence
 
             }
         }
+        //Deleting first element
+        //Deleting the first node
+        public Node DeleteFirst()
+        {
+            if (this.head == null)
+            {
+                return null;
+            }
+            this.head = this.head.next;
+            return this.head;
+        }
+
+
+
+
         //Display the nodes
         public void Display()
         {

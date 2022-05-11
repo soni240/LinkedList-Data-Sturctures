@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC4_Final_Sequence
+namespace UC5_Delete_First_Element
 {
     internal class Node
     {
@@ -21,5 +21,7 @@ namespace UC4_Final_Sequence
         }
     }
 }
+
+
     
 
