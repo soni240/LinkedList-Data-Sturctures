@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC1_Simple_Linked_List
+namespace UC2_Adding_Sequencs
 {
     internal class Node
     {
@@ -19,4 +19,5 @@ namespace UC1_Simple_Linked_List
         }
     }
 }
+    
 

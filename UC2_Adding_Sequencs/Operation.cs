@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC1_Simple_Linked_List
+namespace UC2_Adding_Sequencs
 {
     internal class Operation
     {
         //Creating a head node to point the first element
         public Node head;
         //Creating a method to insert last 
+
         public void InsertLast(int new_data)
         {
             Node new_node = new Node(new_data);
@@ -23,9 +24,16 @@ namespace UC1_Simple_Linked_List
                 Node lastNode = GetLastNode();
                 lastNode.next = new_node;
             }
-            Console.WriteLine("Inserted into list " + new_node.data);
+            Console.WriteLine("Inserted into list from last " + new_node.data);
         }
-
+        //Insert Front 
+        public void InsertFront(int new_data)
+        {
+            Node new_node = new Node(new_data);
+            new_node.next = this.head;
+            this.head = new_node;
+            Console.WriteLine("Inserted the list in front " + new_node.data);
+        }
         public Node GetLastNode()
         {
             Node temp = this.head;
@@ -35,6 +43,7 @@ namespace UC1_Simple_Linked_List
             }
             return temp;
         }
+
         //Display the nodes
         public void Display()
         {

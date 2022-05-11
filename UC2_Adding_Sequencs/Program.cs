@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 
-namespace UC1_Simple_Linked_List
+namespace UC2_Adding_Sequencs
 {
     class Program
     {
@@ -10,13 +10,12 @@ namespace UC1_Simple_Linked_List
             //UseCase 1
             Operation obj = new Operation();
             //Insertion Operation
-            obj.InsertLast(56);
-            obj.InsertLast(30);
-            obj.InsertLast(70);
+            obj.InsertFront(56);
+            obj.InsertFront(30);
+            obj.InsertFront(70);
             //Display Operation
-            Console.WriteLine("*****Insertion at Last*****");
+            Console.WriteLine("*****Insertion at First*****");
             obj.Display();
         }
     }
 }
-
