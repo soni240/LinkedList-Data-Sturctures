@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 using System;
 
-namespace UC5_Delete_First_Element
+namespace UC6_Delete_Last_Element
 {
     class Program
     {
@@ -45,6 +46,13 @@ namespace UC5_Delete_First_Element
                     obj.DeleteFirst();
                     obj.Display();
                     break;
+                case 5:
+                    obj.InsertLast(56);
+                    obj.InsertLast(30);
+                    obj.InsertLast(70);
+                    obj.DeleteLast();
+                    obj.Display();
+                    break;
 
 
             }
@@ -55,4 +63,3 @@ namespace UC5_Delete_First_Element
 
 
 }
-

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC5_Delete_First_Element
+namespace UC6_Delete_Last_Element
 {
     internal class Node
     {
@@ -21,7 +21,6 @@ namespace UC5_Delete_First_Element
         }
     }
 }
-
 
     
 
