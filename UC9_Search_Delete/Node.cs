@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC8_Insert_Search
+namespace UC9_Search_Delete
 {
     internal class Node
     {
@@ -21,4 +21,3 @@ namespace UC8_Insert_Search
         }
     }
 }
-
