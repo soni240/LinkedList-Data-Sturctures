@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC7_Search_Linklist_FindNode
+namespace UC8_Insert_Search
 {
     internal class Operation
     {
@@ -151,6 +151,17 @@ namespace UC7_Search_Linklist_FindNode
             Console.WriteLine("Element not found!!!!!!!!");
             return default;
         }
+        //Searching the particular element
+        //-->If element is found,then after that insert the element..
+        public int Insert(int searchdata, int data)
+        {
+            Node temp = Search(searchdata);
+            Node newNode = new Node(data);
+            newNode.next = temp.next;
+            temp.next = newNode;
+            return (newNode.data);
+
+        }
 
 
 
@@ -177,3 +188,6 @@ namespace UC7_Search_Linklist_FindNode
 
     }
 }
+
+    
+

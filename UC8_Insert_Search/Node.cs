@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UC7_Search_Linklist_FindNode
+namespace UC8_Insert_Search
 {
     internal class Node
     {
@@ -21,6 +21,4 @@ namespace UC7_Search_Linklist_FindNode
         }
     }
 }
-
-    
 
